@@ -1,0 +1,171 @@
+# Exerc-ciosLP-
+
+1-
+  (a) (P Q ∨ P)
+	R: ->Não é uma fórmula da L.P.
+	
+  (b) (P ∧ Q) → ((Q ↔ P ) ∨ ¬¬R)
+  R: ->É uma fórmula da L.P
+	(P ∧ Q) → ((Q ↔ P ) ∨ ¬¬R)
+	          ----------------
+	(P ∧ Q) → (Q ↔ P ) ∨ ¬¬R
+	 
+	(c) ¬¬P
+	R:->É uma fórmula da L.P.
+	Essa fórmula já está em seu formato simplificado
+  (d) ∨Q
+	R:->Não é uma fórmula da L.P.
+	
+  (e) (P ∧ Q) → ((Q ↔ ¬R))
+	R: É uma fórmula da L.P.
+	(P ∧ Q) → ((Q ↔ ¬R))
+	          ----------
+	(P ∧ Q) → (Q ↔ ¬R)
+	--------------------------------------------------------------
+	2-
+	(a) Existe fórmula sem símbolo de pontuação? 
+	R: Sim, podemos encontrar fórmulas sem estes símbolos, como P.
+	
+  (b) Quantos tipos de símbolos possui o alfabeto da Lógica Proposicional?
+  Quais são esses símbolos?
+	R: Existem 3 tipos, sendo eles: Símbolos Proposicionais, os Símbolos de Pontuação e os Símbolos de Verdade
+  (c) Existe fórmula da Lógica Proposicional com algum conectivo, mas sem
+  símbolo de pontuação?
+	Não, pois toda fórmula com conectivo possui Símbolos de Pontuação. 
+	---------------------------------------------------------------------------------------------------------------------
+	3-
+	(a) ((¬¬P ∨ Q) ↔ (P → Q)) ∧ P 
+	R: Comprimento: 11.
+	Subfórmula:  ((¬¬P ∨ Q) ↔ (P → Q)) ∧ P; ((¬¬P ∨ Q) ↔ (P → Q)); (¬¬P ∨ Q); (P → Q); ¬¬P; P; Q.
+	
+  (b) P → ((Q → R) → ((P → R) → (P → R)))
+	R: Comprimento:12
+	Subfórmula:   P → ((Q → R) → ((P → R) → (P → R))); ((Q → R) → ((P → R) → (P → R)); ((Q → R) → ((P → R)); (Q → R); (P → R); P; Q; R.
+	
+  (c) ((P → ¬P ) ↔ ¬P ) ∨ Q
+	R:Comprimento:9
+	Subfórmula:  ((P → ¬P ) ↔ ¬P ) ∨ Q;  ((P → ¬P ) ↔ ¬P ); (P → ¬P );  P; ¬P; Q.
+	
+  (d) ¬(P → ¬P )
+	R: Comprimento:5
+	Subfórmula: ¬(P → ¬P ); P; ¬P.
+	-------------------------------------------------
+	4- 
+	a) ((¬(¬P )) ↔ ((¬((¬(¬(P ∨ Q))) → R)) ∧ P )) 
+	R: ------------------------------------------
+     (¬(¬P )) ↔ ((¬((¬(¬(P ∨ Q))) → R)) ∧ P )
+     --------
+     ¬(¬P ) ↔ ((¬((¬(¬(P ∨ Q))) → R)) ∧ P )
+      -----
+     ¬¬P ↔ ((¬((¬(¬(P ∨ Q))) → R)) ∧ P )
+            ---------------------
+     ¬¬P ↔ (¬((¬(¬(P ∨ Q))) → R) ∧ P )
+               ------------
+     ¬¬P ↔ (¬(¬(¬(P ∨ Q)) → R) ∧ P )  
+               ----------
+     ¬¬P ↔ (¬(¬¬(P ∨ Q) → R) ∧ P )  
+           -----------------------
+      ¬¬P ↔ ¬(¬¬(P ∨ Q) → R) ∧ P      
+
+  
+(b) (¬P → (Q ∨ R)) ↔ ((P ∧ Q) ↔ (¬¬R ∨ ¬P ))
+    --------------
+    ¬P → (Q ∨ R) ↔ ((P ∧ Q) ↔ (¬¬R ∨ ¬P ))
+                              ----------
+    ¬P → (Q ∨ R) ↔ ((P ∧ Q) ↔ ¬¬R ∨ ¬P ) 
+                   ---------------------
+    ¬P → (Q ∨ R) ↔ (P ∧ Q) ↔ ¬¬R ∨ ¬P          
+
+
+(c) ((P ∨ Q) → (P → (¬Q)))
+                    ---
+    ((P ∨ Q) → (P → ¬Q))
+	             -------
+    ((P ∨ Q) → P → ¬Q)
+    ------------------
+    (P ∨ Q) → P → ¬Q
+----------------------------------------------------------
+5-
+(a) P ∨ ¬Q → R ↔ ¬R
+    P ∨ ¬Q → R ↔ (¬R)
+   (P ∨ ¬Q → R ↔ (¬R))
+   ((P ∨ ¬Q) → R ↔ (¬R))
+   ((P ∨ ¬Q) → (R ↔ (¬R)))
+    
+(b) Q → ¬P ∧ Q
+    Q → (¬P ∧ Q)
+    (Q → (¬P ∧ Q))
+
+(c) ¬P ∨ Q ↔ Q
+    (¬P ∨ Q) ↔ Q
+    ((¬P ∨ Q) ↔ Q)
+    
+(d) ¬¬P → Q ↔ P ∧ P ¬¬R
+    (¬¬P → Q ↔ P ∧ P ¬¬R)
+    (¬(¬P → Q ↔ P ∧ P ¬¬R))
+    (¬(¬P → Q ↔ P ∧ P ¬(¬R)))
+    (¬((¬P → Q) ↔ P ∧ P ¬(¬R)))
+    (¬((¬P → Q) ↔ (P ∧ P) ¬(¬R)))
+    (¬((¬P → Q) ↔ ((P ∧ P) ¬(¬R))))
+----------------------------------------------------------
+6-
+(a) Escreva as fórmulas dos Exercícios 3 e 4 utilizando a notação polonesa.
+
+(Fórmulas do Exercício 3)
+   (a) ((¬¬P ∨ Q) ↔ (P → Q)) ∧ P
+       ((¬1¬2 P ∨3 Q) ↔4 (P →5 Q)) ∧6 P
+        ((¬1¬2 P ∨3 Q) ↔4 (P →5 Q)) ∧6 P
+         ------------     -------
+         (¬¬ PQ ∨ ↔4 → PQ) ∧6 P
+         -----------------
+         ∧→ ¬¬∨ PQ ↔ PQ P
+        
+   (b) P → ((Q → R) → ((P → R) → (P → R)))
+       P →1 ((Q →2 R) →3 ((P →4 R) →5 (P →6 R)))
+       P →1 ((Q →2 R) →3 ((P →4 R) →5 (P →6 R)))
+              -------      -------    -------
+       P →1 (→ QR →3 (→ PR →5  → PR))
+       P →1 (→ QR →3 (→ PR →5  → PR))
+                      -------------
+       P →1 (→ QR →3 → → PR  → PR)
+       P →1 (→ QR →3 → → PR  → PR)
+            ----------------------
+       P →1 → → QR → → PR  → PR
+       ----
+       → P → → QR → → PR  → PR
+   
+   (c) ((P → ¬P ) ↔ ¬P ) ∨ Q
+       ((P →1 ¬2P ) ↔3 ¬4P ) ∨5 Q
+       ((P →1 ¬2P ) ↔3 ¬4P ) ∨5 Q
+        ----------
+       (→ ¬PP ↔3 ¬4P ) ∨5 Q
+       →¬↔¬PPP ∨5 Q
+       →¬↔¬PPP ∨5 Q
+               ----
+       →¬↔¬ ∨ PPPQ        
+   
+   (d) ¬(P → ¬P )
+       ¬1(P →2 ¬3P )
+       ¬1(P →2 ¬3P )
+         ----------
+       ¬1 →¬ PP
+       ¬1 →¬ PP
+       --------
+       ¬→¬ PP
+   
+(Fórmulas do Exercício 4)
+   (a) ((¬(¬P )) ↔ ((¬((¬(¬(P ∨ Q))) → R)) ∧ P ))
+   (b) (¬P → (Q ∨ R)) ↔ ((P ∧ Q) ↔ (¬¬R ∨ ¬P ))
+   (c) ((P ∨ Q) → (P → (¬Q)))
+
+(b) Determine quais sequências de símbolos, indicadas a seguir, são fórmulas
+da Lógica Proposicional que utilizam a notação polonesa. No caso em que
+a sequência de símbolos é uma fórmula, reescreva-a utilizando a notação
+convencional.
+∨ → P Q ↔ R → ∨P Q¬S
+→↔ P Q∨ → P Q → ¬RR
+→ ¬P ¬QR ∨ ∨P Q ∨ ¬R¬P
+↔→ ¬P ∨ QR ↔ ∧P Q ∨ ¬¬R¬P
+    
+  
+  
